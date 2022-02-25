@@ -57,7 +57,7 @@ function App() {
      <Box/> */}
     <Navbar title="TextMax" mode={Mode} toggle={toggle}  btnclick={btnclick} btn={btn} />
     <Alert alert={alert} showalert={showalert}/>
-    <Textbox heading="Enter The Text - Covert to uppercase,lowercase..."  mode={Mode} showalert={showalert}/>
+    <Textbox heading="Enter The Text - Convert to uppercase,lowercase..."  mode={Mode} showalert={showalert}/>
    </>
   );
 }
